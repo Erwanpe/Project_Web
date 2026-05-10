@@ -1,0 +1,26 @@
+:root {
+  
+  --color-academic-blue: #0A316C;
+  --color-pure-white: #FFFFFF;
+
+  
+  --color-tech-cyan: #81ECEC;
+  --color-electric-yellow: #FDCB6E;
+  
+  
+  --color-background-dark: #041021;
+  --color-text-dark: #121212;
+  --color-text-light: #F0F0F0;
+  --color-gray: #E0E0E0;
+
+  
+  --font-family-headline: 'Montserrat', sans-serif;
+  --font-family-body: 'Open Sans', sans-serif;
+
+  
+  --font-size-h1: 40px;
+  --font-size-h2: 32px;
+  --font-size-p: 16px;
+  --font-size-list: 14px;
+}
+
