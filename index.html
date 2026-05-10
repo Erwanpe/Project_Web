@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EFREI Computer Science</title>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo-container">
+      <a href="index.html" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+        <img src="images/logo.png" alt="EFREI Logo" class="efrei-logo">
+      </a>
+      <span style="font-weight: bold; font-size: 14px; margin-left: 10px;">Computer Science</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="faculty.html">Faculty</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div style="text-align: center;">
+      <div class="page-title-box">Home</div>
+    </div>
+    <div class="hero-diagonal">
+      <div class="hero-text">
+        <h2>Welcome To Computer Science Department</h2>
+        <p>Shape the future of technology with cutting edge programs in software engineering, artificial intelligence, and data science. Join a community of innovators and problem-solvers.</p>
+        <a href="courses.html" class="btn">Discover our Programs</a>
+      </div>
+      <div class="hero-image"></div>
+    </div>
+
+
+    <section class="carousel-section">
+      <h2>Department Events</h2>
+      <div class="carousel-container">
+        <div class="carousel-slide active" style="background: linear-gradient(rgba(4, 16, 33, 0.7), rgba(4, 16, 33, 0.7)), url('images/hackathon.jpg') center/cover; padding: 60px; border-radius: 8px; width: 100%; box-sizing: border-box; min-height: 400px;">
+          <h3 style="color: var(--color-electric-yellow); text-shadow: 0 2px 4px rgba(0,0,0,0.5); margin-top: 120px;">Hackathon 2026</h3>
+          <p style="text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Join us for the national AI hackathon held right here on campus. A 48-hour coding marathon!</p>
+        </div>
+        <div class="carousel-slide" style="background: linear-gradient(rgba(4, 16, 33, 0.7), rgba(4, 16, 33, 0.7)), url('images/cybersecurity.jpg') center/cover; padding: 60px; border-radius: 8px; width: 100%; box-sizing: border-box; min-height: 400px;">
+          <h3 style="color: var(--color-electric-yellow); text-shadow: 0 2px 4px rgba(0,0,0,0.5); margin-top: 120px;">Cybersecurity Lab</h3>
+          <p style="text-shadow: 0 2px 4px rgba(0,0,0,0.5);">New state-of-the-art cybersecurity lab opening next semester for Master's students.</p>
+        </div>
+        <div class="carousel-slide" style="background: linear-gradient(rgba(4, 16, 33, 0.7), rgba(4, 16, 33, 0.7)), url('images/alumni.png') center/cover; padding: 60px; border-radius: 8px; width: 100%; box-sizing: border-box; min-height: 400px;">
+          <h3 style="color: var(--color-electric-yellow); text-shadow: 0 2px 4px rgba(0,0,0,0.5); margin-top: 120px;">Tech Alumni Meetup</h3>
+          <p style="text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Network with successful EFREI alumni leading the tech industry in Paris and worldwide.</p>
+        </div>
+        <button class="carousel-prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="carousel-next" onclick="moveSlide(1)">&#10095;</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo-address">
+        <h2 style="margin-bottom: 10px; font-size: 24px;"><a href="https://www.efrei.fr/" target="_blank" style="color: var(--color-pure-white); text-decoration: none;">EFREI</a></h2>
+        <p style="font-size: 12px; line-height: 1.4; color: var(--color-pure-white); margin: 0;">
+          30-32 Avenue de la République<br>
+          94800 Villejuif, France
+        </p>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="faculty.html">Faculty</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-accreditations" style="text-align: right; margin-top: 30px; font-weight: bold; font-family: var(--font-family-headline); color: var(--color-pure-white);">
+      CGE Cti EESPIG
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/carousel.js"></script>
+</body>
+
+</html>
